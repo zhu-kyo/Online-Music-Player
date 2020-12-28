@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>images/minimize.png</file>
+        <file>images/power.png</file>
+        <file>app.ico</file>
+        <file>images/arrow.png</file>
+        <file>images/search.png</file>
+        <file>style/Header.qml</file>
+        <file>style/Footer.qml</file>
+        <file>images/next.png</file>
+        <file>images/pause.png</file>
+        <file>images/play.png</file>
+        <file>images/previous.png</file>
+        <file>images/footerCover.png</file>
+        <file>style/Slider.qml</file>
+        <file>images/mutedVolume.png</file>
+        <file>images/volume.png</file>
+        <file>images/loop.png</file>
+        <file>images/random.png</file>
+        <file>images/sequential.png</file>
+        <file>images/singleLoop.png</file>
+        <file>style/RankPage.qml</file>
+        <file>images/add.png</file>
+        <file>style/RankPageFunc.js</file>
+        <file>images/vip.png</file>
+        <file>style/PlayPage.qml</file>
+        <file>style/PlayPageFunc.js</file>
+        <file>images/albumCover.png</file>
+        <file>images/phonograph.png</file>
+        <file>images/delete.png</file>
+    </qresource>
+</RCC>
