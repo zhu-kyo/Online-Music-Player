@@ -4,6 +4,8 @@
 
 ​		本项目是一个在线音乐播放器的简单练习项目，主要使用`Qt Quick`和少量的`javascript`，实现了搜索歌曲，查看最新的推荐音乐列表和播放控制等基础功能。
 
+​		**本项目使用的接口已失效，现在可以搜索歌曲但无法播放。**
+
 ### 工具
 
 `Qt Creator 4.14.0` `+` `Qt 5.15.2`
@@ -60,14 +62,14 @@ https://api.zsfmyz.top/music/song?songmid=%1&guid=126548448
 
 关于接口的更多描述可以参考：
 
-https://www.siediyer.cn/?p=1165
+[https://www.siediyer.cn/?p=1165](https://www.siediyer.cn/?p=1165)
 
-https://github.com/lunhui1994/node-music-api
+[https://github.com/lunhui1994/node-music-api](https://github.com/lunhui1994/node-music-api)
 
-http://www.bubuko.com/infodetail-3480251.html
+[http://www.bubuko.com/infodetail-3480251.html](http://www.bubuko.com/infodetail-3480251.html)
 
 其中有些接口已经失效
 
 ### 问题
 
-​		在使用`https`请求时很可能出现`TLS initialization failed`或类似错误，解决方法在https://blog.csdn.net/ypp240124016/article/details/111057879中可以找到。在获取到歌曲地址后传递给播放器时可能出现`[DirectShowPlayerService::doRender: Unresolved error code 0x80040266 ()]`或类似错误，好像是由于无法解码，如果会用一些音频库的话应该可以解决，或者下载` K-lite codecs`并安装也可解决，可参考https://stackoverflow.com/questions/53328979/directshowplayerservicedorender-unresolved-error-code-0x80040266。
+​		在使用`https`请求时很可能出现`TLS initialization failed`或类似错误，解决方法在[这里](https://blog.csdn.net/ypp240124016/article/details/111057879)可以找到。在获取到歌曲地址后传递给播放器时可能出现`[DirectShowPlayerService::doRender: Unresolved error code 0x80040266 ()]`或类似错误，好像是由于无法解码，如果会用一些音频库的话应该可以解决，或者下载` K-lite codecs`并安装也可解决，可参考[这里](https://stackoverflow.com/questions/53328979/directshowplayerservicedorender-unresolved-error-code-0x80040266)。
